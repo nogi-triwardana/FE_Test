@@ -3,7 +3,7 @@ import ProviderCredentials from "next-auth/providers/credentials";
 import { loginService } from "@/services";
 import { AxiosError } from "axios";
 
-export const handlers = NextAuth({
+const handlers = NextAuth({
   providers: [
     ProviderCredentials({
       name: 'credentials',
