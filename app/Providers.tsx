@@ -9,7 +9,7 @@ import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
 
 const queryClient = new QueryClient();
 
-export function StyledRoot({
+export function Providers({
   children,
 }: Readonly<{
   children: React.ReactNode;
